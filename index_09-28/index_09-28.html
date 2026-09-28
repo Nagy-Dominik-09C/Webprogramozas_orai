@@ -6,21 +6,48 @@
     <title>Imagek</title>
 </head>
 <body>
-    <p>Eredeti kép:</p>
-    <img src="images/majom.jpeg" height="300px" alt="Nincs Kép">
-    <p>Összenyomott kép:</p>
-    <img src="images/majom.jpeg" width="300px" height="300px" alt="Szintén nincs kép">
+    <h1 id="teteje">Képek</h1>
+        <p>Eredeti képarány: elég csak a széleséget vagy a magasságot állítani.</p>
+        <p>Az img elem alt (<span id="alt">alternatív szöveg</span>) tulajdonságát illik kitölteni.</p>
+        <p>Eredeti kép:</p>
+        <img src="images/majom.jpeg" height="300px" alt="Nincs Kép">
+        <p>Összenyomott kép:</p>
+        <img src="images/majom.jpeg" width="300px" height="300px" alt="Szintén nincs kép">
+        <p>Másik majom: (ez style attribute-tal let átméretezve)</p>
+        <img src="images/majom2.jpeg" style="height: 300px;" alt="Másik majom sincs">
+        <p>A képek tutorial oldal <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">itt</a> található.</p>
+
+    <h1 id="CSS">CSS</h1>
+        <p>A CSS-t <a href="https://www.w3schools.com/css/">itt</a> tudjuk megtanulni.</p>
+        <p style="color:red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, omnis!</p>
+
+    <h2>Ütköző CSS beállítások:</h2>
+        <p>Amennyiben két szabály (internal &lt-&gt inline) üti egymást, akkor mindig az inline szabály győz. Ez később a CSS specificity-vel pontosítjuk...</p>
+        <p>Vissza az oldal tetejére: <a href="#teteje">itt</a></p>
 </body>
 </html>
 
 <style>
     body{
         background-color: black;
-        font-size: 40px;
+        font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
     }
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    a{
+        color: gray;
+    }
     img{
         font-size: 20px;
+    }
+    #CSS{
+        color: rgb(0, 162, 255);
+    }
+    #alt{
+        font-style: italic;
     }
 </style>

@@ -1,0 +1,22 @@
+/* Alt+Shift+F - Format document */
+
+body, a{
+    /* Komment: CTRL+K+C */
+    background-color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    /* color: rgb(255 255 255); */
+    /* color: rgba(0 0 255 / 0.3); */
+    color: #FFFFFF;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.kiemelt{
+    background-color: antiquewhite;
+    color: darkgoldenrod;
+}

@@ -57,3 +57,11 @@ a{
     margin-top: 50px;
     padding: 20px 50px
 }
+
+.fontos {
+    background-color: red;
+    color: darkred;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}

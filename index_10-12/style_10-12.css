@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    color: gray;
+}
+
+.box {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    color: black;
+    background-color: antiquewhite;
+        border-left: 20px solid darkgoldenrod;
+        border-bottom: 2px dotted darkgoldenrod;
+        /* border-radius: 10px; */
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+}

@@ -1,0 +1,43 @@
+body {
+    background-image: url(images/hatter.png);
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: orange;
+    text-transform: uppercase;
+}
+
+img {
+    border: 5px solid orange;
+    margin: auto;
+    display: block;
+}
+
+.kulso {
+    padding: 10px;
+    background-color: white;
+    width: 640px;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.dolt {
+    font-style: italic;
+    font-size: 12px;
+}
+
+li {
+    list-style-image: url(images/bogyo.png);
+    margin-left: 20px;
+}

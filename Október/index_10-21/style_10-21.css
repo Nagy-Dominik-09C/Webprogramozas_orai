@@ -1,0 +1,55 @@
+body {
+    color: rgb(78, 78, 78);
+    display: block;
+}
+
+div img{
+    margin: auto;
+    display: block;
+    box-shadow: 6px 6px rgb(78, 78, 78);
+}
+
+.teteje h1, h2 {
+    text-align: center;
+    margin: 0%;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+table, th, td {
+    border: 2px solid darkblue;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.tablazat {
+    width: 50%;
+    margin: auto;
+}
+
+thead {
+    text-align: center;
+    padding: 40px;
+}
+
+.arany {
+    background-color: gold;
+}
+
+.ezust {
+    background-color: gray;
+}
+
+.bronz {
+    background-color: brown;
+    color: white;
+}
+

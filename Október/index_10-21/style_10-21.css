@@ -1,6 +1,14 @@
 body {
     color: rgb(78, 78, 78);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: block;
+}
+
+.egesz {
+    margin: auto;
+    width: 833px;
+    padding: 10px;
+    background-color: beige;
 }
 
 div img{
@@ -23,11 +31,19 @@ h3 {
     font-size: 30px;
 }
 
-table, th, td {
+p {
+    text-align: justify;
+}
+
+table, td {
     border: 2px solid darkblue;
     border-collapse: collapse;
     margin: auto;
     padding: 0px 30px;
+}
+
+th {
+    padding: 5px;
 }
 
 .tablazat {
@@ -38,6 +54,10 @@ table, th, td {
 thead {
     text-align: center;
     padding: 40px;
+}
+
+span {
+    color: brown;
 }
 
 .arany {

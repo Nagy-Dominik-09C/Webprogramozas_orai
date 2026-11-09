@@ -1,0 +1,64 @@
+body,html {
+	background-color	: orange;
+	color				: black;
+	margin				: 0px;
+	padding				: 0px;
+	font-family			: verdana, arial, sans serif;
+	text-align: justify;
+}
+
+.container {
+	width				: 960px;
+	background-color	: cornsilk;
+	padding: 30px;
+	margin: auto;
+}
+
+p {
+	text-indent			: 30px;
+}
+
+ul {
+	margin-left			: 100px;
+}
+
+li {
+	margin-bottom		: 5px;
+}
+
+
+table{
+	margin-left: 100px;
+}
+
+h1 {
+	text-align: right;
+	border-bottom: orange 3px double;
+	font-size: 36px;
+}
+
+h2 {
+	border-top: orange 1px solid;
+	max-width: 500px;
+	padding-top:10px;
+}
+
+.kep {
+	max-width: 200px;
+	margin: 30px;
+	float: right;
+	border: orange 1px solid;
+}
+
+.kiemelt {
+	font-weight: bold;
+}
+
+table, tr, td {
+	border: orange 3px solid;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+}

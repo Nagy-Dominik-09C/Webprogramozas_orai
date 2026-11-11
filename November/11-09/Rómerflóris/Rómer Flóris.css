@@ -5,10 +5,12 @@ body,html {
 	padding				: 0px;
 	font-family			: verdana, arial, sans serif;
 	text-align: justify;
+	display: flex;
+	margin: auto;
 }
 
 .container {
-	width				: 960px;
+	max-width				: 960px;
 	background-color	: cornsilk;
 	padding: 30px;
 	margin: auto;
@@ -60,5 +62,9 @@ table, tr, td {
 }
 
 td {
-	padding: 5px;
+	padding: 5px 20px;
+}
+
+.forras {
+	padding: 70px 10px;
 }

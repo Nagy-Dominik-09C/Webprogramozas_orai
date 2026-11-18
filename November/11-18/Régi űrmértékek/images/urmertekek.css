@@ -1,0 +1,55 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(220 220 220);
+    font-size: 13pt;
+}
+
+#wrapper {
+    max-width: 1280px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: rgb(192 192 255 );
+    margin: auto;
+    padding: 20px;
+}
+
+.vonal {
+    width: 80%;
+    margin: 30px;
+}
+
+fieldset {
+    width: 250px;
+    margin: 0 auto;
+    padding-left: 100px;
+}
+
+legend {
+    margin-left: -90px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+#korso {
+    height: 200px;
+    margin-left: 20px;
+    float: right;
+    border: darkblue 2px solid;
+}
+
+#hordo {
+    height: 300px;
+    margin-right: 20px;
+    float: left;
+    border: darkblue 2px solid;
+}
